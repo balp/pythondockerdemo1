@@ -1,0 +1,11 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hiq_hello"
+description = "Hello All HiQ"
+version = "0.0.1"
+
+[project.scripts]
+hello = "hiq_hello.hello:hello"
